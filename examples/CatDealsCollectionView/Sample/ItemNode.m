@@ -127,7 +127,7 @@ const CGFloat kSoldOutGBHeight = 50.0;
   self.soldOutLabelBackground.hidden = YES;
   self.soldOutLabelFlat.hidden = YES;
   
-  [self addSubnode:self.soldOutOverlay];
+  // [self addSubnode:self.soldOutOverlay];
   
   if ([ItemNode isRTL]) {
     self.titleLabel.alignSelf = ASStackLayoutAlignSelfEnd;
